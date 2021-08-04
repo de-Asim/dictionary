@@ -1,0 +1,60 @@
+*{
+    /* overflow: hidden; */
+}
+#dictionary{
+    width: 60%;
+    padding: 10px;
+    margin: 20px 20%;
+    /* border: 1px solid red; */
+
+}
+
+#input{
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+.form-control{
+    /* width: 70%; */
+    display: inline;
+    margin-right: 10px;
+    
+}
+#output{
+    /* border: 1px solid rgb(0, 255, 76); */
+    margin: 10px 10px;
+    overflow-y: auto;
+}
+h2:first-letter {
+    text-transform:capitalize;
+}
+.pos{
+    margin: 10px 0px;
+}
+.def{
+    padding-left: 20px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    #dictionary{
+        width: 80%;
+        padding: 10px;
+        margin: 20px 10%;
+        /* border: 1px solid red; */
+    
+    }
+  }
+
+@media screen and (max-width: 700px) {
+    #dictionary{
+        width: 90%;
+        padding: 10px;
+        margin: 20px 5%;
+        /* border: 1px solid red; */
+    
+    }
+  }
